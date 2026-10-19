@@ -4,8 +4,8 @@ description = "Data sources represent the various subjects/topics of information
 reference = "https://attack.mitre.org/datasources/"
 key = "name"
 source = "mitre-attack"
-source_version = "19.2"
-source_fetched_at = "2026-09-29T11:52:47.430Z"
+source_version = "20.0"
+source_fetched_at = "2026-10-19T13:07:50.898Z"
 [[keys]]
 id = "DS0026"
 name = "Active Directory"
