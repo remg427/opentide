@@ -4,8 +4,8 @@ description = "Groups are activity clusters that are tracked by a common name in
 reference = "https://attack.mitre.org/groups/"
 key = "id"
 source = "mitre-attack"
-source_version = "19.2"
-source_fetched_at = "2026-09-29T11:52:47.430Z"
+source_version = "20.0"
+source_fetched_at = "2026-10-26T12:56:00.184Z"
 [[keys]]
 id = "G1028"
 name = "[Mobile] APT-C-23"
@@ -219,7 +219,7 @@ version = "1.0"
 [[keys]]
 id = "G0082"
 name = "[ICS] APT38"
-description = "[APT38](https://attack.mitre.org/groups/G0082) is a North Korean state-sponsored threat group that specializes in financial cyber operations; it has been attributed to the Reconnaissance General Bureau.(Citation: CISA AA20-239A BeagleBoyz August 2020) Active since at least 2014, [APT38](https://attack.mitre.org/groups/G0082) has targeted banks, financial institutions, casinos, cryptocurrency exchanges, SWIFT system endpoints, and ATMs in at least 38 countries worldwide. Significant operations include the 2016 Bank of Bangladesh heist, during which [APT38](https://attack.mitre.org/groups/G0082) stole $81 million, as well as attacks against Bancomext (Citation: FireEye APT38 Oct 2018) and Banco de Chile (Citation: FireEye APT38 Oct 2018); some of their attacks have been destructive.(Citation: CISA AA20-239A BeagleBoyz August 2020)(Citation: FireEye APT38 Oct 2018)(Citation: DOJ North Korea Indictment Feb 2021)(Citation: Kaspersky Lazarus Under The Hood Blog 2017)\n\nNorth Korean group definitions are known to have significant overlap, and some security researchers report all North Korean state-sponsored cyber activity under the name [Lazarus Group](https://attack.mitre.org/groups/G0032) instead of tracking clusters or subgroups."
+description = "[APT38](https://attack.mitre.org/groups/G0082) is a North Korean state-sponsored threat group that specializes in financial cyber operations; it has been attributed to the Reconnaissance General Bureau.(Citation: CISA AA20-239A BeagleBoyz August 2020) Active since at least 2014, [APT38](https://attack.mitre.org/groups/G0082) has targeted banks, financial institutions, casinos, cryptocurrency exchanges, SWIFT system endpoints, and ATMs in at least 38 countries worldwide. Significant operations include the 2016 Bank of Bangladesh heist, Bancomext (Citation: FireEye APT38 Oct 2018) and Banco de Chile (Citation: FireEye APT38 Oct 2018), along with software supply chain compromises and destructive malware attacks.(Citation: CISA AA20-239A BeagleBoyz August 2020)(Citation: FireEye APT38 Oct 2018)(Citation: DOJ North Korea Indictment Feb 2021)(Citation: Kaspersky Lazarus Under The Hood Blog 2017)(Citation: Microsoft Axios Compromise APR 2026)(Citation: Microsoft Sapphire Sleet APR 2026)(Citation: MIcrosoft Mastra npm Compromise JUN 2026)\n\nNorth Korean group definitions are known to have significant overlap, and some security researchers report all North Korean state-sponsored cyber activity under the name [Lazarus Group](https://attack.mitre.org/groups/G0032) instead of tracking clusters or subgroups."
 link = "https://attack.mitre.org/groups/G0082"
 alias = [
     "APT38",
@@ -1749,7 +1749,7 @@ version = "1.1"
 [[keys]]
 id = "G1045"
 name = "Salt Typhoon"
-description = "[Salt Typhoon](https://attack.mitre.org/groups/G1045) is a People's Republic of China (PRC) state-backed actor that has been active since at least 2019 and responsible for numerous compromises of network infrastructure at major U.S. telecommunication and internet service providers (ISP).(Citation: US Dept. of Treasury Salt Typhoon JAN 2025)(Citation: Cisco Salt Typhoon FEB 2025)\n"
+description = "[Salt Typhoon](https://attack.mitre.org/groups/G1045) is a People's Republic of China (PRC) state-backed actor that has been active since at least 2019 and responsible for numerous compromises of network infrastructure at major U.S. telecommunication and internet service providers (ISP). [Salt Typhoon](https://attack.mitre.org/groups/G1045) has targeted and leveraged public facing network edge devices to gain access to victim environments. [Salt Typhoon](https://attack.mitre.org/groups/G1045) has been publicly associated with activities resembling other security industry reported activity groups to include OPERATOR PANDA, RedMike, GhostEmperor, and UNC5807.(Citation: US Dept. of Treasury Salt Typhoon JAN 2025)(Citation: Cisco Salt Typhoon FEB 2025)(Citation: CISA_AA25-239ASaltTyphoon_Sept2025)(Citation: CarySentinelLabs_CiscoSaltTyphoon_Dec2025)(Citation: CrowdStrike_OperatorPanda_NoDate)(Citation: RF_SaltTyphoon_Feb2025)(Citation: Microsoft_ThreatActorNaming_NoDate)(Citation: Mandiant_M-Trends2026_Mar2026)"
 link = "https://attack.mitre.org/groups/G1045"
 alias = [
     "Salt Typhoon",
@@ -2134,3 +2134,26 @@ alias = [
     "UNC788",
 ]
 version = "1.1"
+[[keys]]
+id = "G1058"
+name = "The Gentlemen"
+description = "[The Gentlemen](https://attack.mitre.org/groups/G1058) is a group that maintains the [The Gentlemen Ransomware](https://attack.mitre.org/software/S9051)-as-a-service (RaaS). [The Gentlemen](https://attack.mitre.org/groups/G1058) was first observed in mid-2025 who had posed [The Gentlemen Ransomware](https://attack.mitre.org/software/S9051) as a closed ransomware and shortly later opened the ransomware as a RaaS to affiliates in September 2025. [The Gentlemen](https://attack.mitre.org/groups/G1058) has been affiliated with the threat group Storm-2697 and GOLD SHERWOOD.(Citation: MSTI_GentelmenRansomware_May2026)(Citation: Intel471_TheGentlemen_Aug2026)(Citation: Sophos_TheGentlemen_Sept2026)(Citation: SoučekESET_Gentlemen_Jun2026)(Citation: CheckPointResearch_TheGentlemen_April2026)(Citation: BradyUnit42_TheGentlemen_July2026)(Citation: CarveyODonnellWelchHuntress_TheGentlemen_May2026)(Citation: TrendAI_TheGentlemen_Sept2025) "
+link = "https://attack.mitre.org/groups/G1058"
+alias = [
+    "The Gentlemen",
+    "Storm-2697",
+    "GOLD SHERWOOD",
+]
+version = "1.2"
+[[keys]]
+id = "G1059"
+name = "NIMBUS MANTICORE"
+description = "[NIMBUS MANTICORE](https://attack.mitre.org/groups/G1059) is a State Sponsored cyber espionage group associated with the Iranian Regime specifically the Iranian Revolutionary Guard Corps (IRGC). [NIMBUS MANTICORE](https://attack.mitre.org/groups/G1059) has employed social engineering attacks to include HR related themes and has leveraged custom malware against its victims. [NIMBUS MANTICORE](https://attack.mitre.org/groups/G1059) has sought sensitive information in victims’ environments to include network/IT documentation, intellectual property and emails. [NIMBUS MANTICORE](https://attack.mitre.org/groups/G1059) has also leveraged compromised organizations as pivot points to access other organizations of interest. [NIMBUS MANTICORE](https://attack.mitre.org/groups/G1059) has been active since 2021 and has targeted critical infrastructure organizations to include aviation, aerospace, telecommunications and defense and information technology related organizations within the United States, Australia, Midde East and Europe.(Citation: Mandiant_UNC1549TTPsTools_Nov2025)(Citation: CheckPoint_NimbusManticore_May2026)(Citation: CheckPoint_NimbusManticoreEurope_Sept2025)(Citation: Mandiant_UNC1549_Feb2024)"
+link = "https://attack.mitre.org/groups/G1059"
+alias = [
+    "NIMBUS MANTICORE",
+    "UNC1549",
+    "TA455",
+    "COBALT SMOKEY",
+]
+version = "1.2"

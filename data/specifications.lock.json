@@ -1,5 +1,5 @@
 {
-  "bundled_vocabulary_sha256": "72b334402f5f6f6162243422ec086292d9177515e0780f4c38f80cea8d99c81b",
+  "bundled_vocabulary_sha256": "010f306f3e45493d3e0cee4f4a043cb9834fbd5b841af45bfb86062b58639ad6",
   "lock_version": 1,
   "managed_files": [
     "actors.vocab.toml",
@@ -25,7 +25,6 @@
     "objectives.vocab.toml",
     "pap.vocab.toml",
     "resources.vocab.toml",
-    "responders.vocab.toml",
     "rsit.vocab.toml",
     "scheduling.vocab.toml",
     "sectors.vocab.toml",
@@ -40,6 +39,6 @@
     "violation.vocab.toml"
   ],
   "source_glob": "vocabularies/*.vocab.toml",
-  "specifications_git_sha": "baseline-bundled-state",
+  "specifications_git_sha": "fbc051839635c95f52a95444db71effa00604455",
   "specifications_repo": "OpenTideHQ/specifications"
 }
